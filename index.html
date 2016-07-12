@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>中逊国学教育</title>
+    <link href="style/main.css" rel="stylesheet" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        
+        var set_bg_width = function () {
+            var bgWidth = (document.body.clientWidth - 1000) / 2;
+            console.log(bgWidth);
+            $('.bg').css('width', bgWidth - 1);
+        }
+        
+        window.onresize = function () {
+            set_bg_width();
+        }
+       
+    </script>
+</head>
+<body onload="set_bg_width();">
+
+    <div class="bg bg_left fl"></div>
+
+    <div class="nav fl">1</div>
+
+    <div class="bg bg_right fr"></div>
+
+</body>
+</html>
