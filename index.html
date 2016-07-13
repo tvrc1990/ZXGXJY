@@ -5,29 +5,74 @@
     <meta charset="utf-8" />
     <title>中逊国学教育</title>
     <link href="style/main.css" rel="stylesheet" />
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.main.js"></script>
     <script type="text/javascript">
-        
+
         var set_bg_width = function () {
             var bgWidth = (document.body.clientWidth - 1000) / 2;
             console.log(bgWidth);
             $('.bg').css('width', bgWidth - 1);
         }
-        
+
         window.onresize = function () {
             set_bg_width();
         }
-       
+
     </script>
 </head>
 <body onload="set_bg_width();">
 
-    <div class="bg bg_left fl"></div>
+    <div class="bg bg_left fl">
+        <img src="image/bg_left.png" />
+    </div>
 
-    <div class="nav fl">1</div>
 
-    <div class="bg bg_right fr"></div>
+    <div class="nav fl">
+        <ul class="menu-container db">
+            <li class="menu db fl" style="width: 76px;">
+                <a class="red">首页</a>
+                <i class="line"></i>
+            </li>
+            <li class="menu db fl">
+                <a>关于中逊</a>
+                <i class="line"></i>
+                <ul class="sub-menu-container">
+                    <li class="sub-menu db fl"><a>中逊简介</a></li>
+                    <li class="sub-menu db fl"><a>文化理念</a></li>
+                    <li class="sub-menu db fl"><a>获得荣誉</a></li>
+                </ul>
+            </li>
+            <li class="menu db fl"><a>官方咨询</a><i class="line"></i></li>
+            <li class="menu db fl"><a>开设课程</a><i class="line"></i></li>
+            <li class="menu db fl"><a>培训教育</a><i class="line"></i></li>
+            <li class="menu db fl"><a>学生交流</a><i class="line"></i></li>
+            <li class="menu db fl"><a>联系我们</a></li>
+        </ul>
+      
+    </div>
+
+    <div class="banner fl">
+        <img src="image/banner.png" />
+    </div>
+
+    <div class="content-container">
+        <div class="content">
+            <div class="introduced-container">
+                <div class="introduced-title"></div>
+                <div class="introduced-content">
+                        中逊国学教育是致力于中国传统文化弘扬、培训的教育机构。师资力量雄厚，旗下有各大院校国学研究讲师39位。不定期举行国家级国学大师讲座。并举行古典乐器培训，曲艺培训，戏曲教学等文化培训
+                    <p class="introduced-more"><a>【查询详情】</a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="bg bg_right fr">
+         <img src="image/bg_right.png" />
+    </div>
 
 </body>
 </html>
