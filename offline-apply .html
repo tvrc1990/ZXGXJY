@@ -1,0 +1,291 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>中逊国学教育</title>
+    <link href="style/common.css" rel="stylesheet" />
+    <link href="style/detail.css" rel="stylesheet" />
+    <script src="js/jquery.main.js"></script>
+    <script type="text/javascript">
+
+        var set_bg_width = function () {
+            var bgWidth = (document.body.clientWidth - 1000) / 2;
+            console.log(bgWidth);
+            $('.bg').css('width', bgWidth - 1);
+            $('.bg').css('margin-top', $('.footer').parents('.content').offset().top - 307)
+        }
+
+        window.onresize = function () {
+            set_bg_width();
+        }
+
+    </script>
+</head>
+<body onload="set_bg_width();">
+    <div class="bg bg_left fl">
+        <img src="image/bg_left.png" />
+    </div>
+
+
+    <div class="nav fl">
+        <ul class="menu-container db">
+            <li class="menu db fl" style="width: 76px;">
+                <a class="red" href="#">首页</a>
+                <i class="line"></i>
+            </li>
+            <li class="menu db fl">
+                <a href="#">关于中逊</a>
+                <i class="line"></i>
+                <ul class="sub-menu-container">
+                    <li class="sub-menu sub-menu-first db fl"><a href="#">中逊简介</a></li>
+                    <li class="sub-menu db fl"><a href="#">文化理念</a></li>
+                    <li class="sub-menu db fl"><a href="#">获得荣誉</a></li>
+                </ul>
+            </li>
+            <li class="menu db fl"><a href="#">官方咨询</a><i class="line"></i></li>
+            <li class="menu db fl"><a href="#">开设课程</a><i class="line"></i></li>
+            <li class="menu db fl"><a href="#">培训教育</a><i class="line"></i></li>
+            <li class="menu db fl"><a href="#">学生交流</a><i class="line"></i></li>
+            <li class="menu db fl"><a href="#">联系我们</a></li>
+        </ul>
+
+    </div>
+
+
+
+    <div class="content-container" style="top: 130px;">
+
+        <div class="content">
+
+            <div class="banner-container fl">
+                <img src="image/data/jyxs.png" />
+            </div>
+
+            <div class="relief-container relief-left fl">
+                <div class="relief-title mt25">
+                    <div class="relief-left-edge fl"></div>
+                    <div class="relief-center-edge  fl">
+                        <div class="round-text detail-round-text fl">联</div>
+                        <div class="round-text detail-round-text fl">系</div>
+                        <div class="round-text detail-round-text fl">我</div>
+                        <div class="round-text detail-round-text fl">们</div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="relief-right-edge fr"></div>
+                </div>
+                <div class="relief-left-vertical" style="height: 160px;">
+                    <div class="relief-right-vertical" style="height: 160px;">
+                        <div class="relief-left-item ">联系方式</div>
+                        <div class="relief-left-division"></div>
+                        <div class="relief-left-item  item-checked">在线报名</div>
+                        <div class="relief-left-division"></div>
+                        <div class="relief-left-item">在线应聘</div>
+                    </div>
+
+
+                </div>
+                <div class="relief-footer">
+                    <div class="relief-footer-edge relief-footer-left fl"></div>
+                    <div class="relief-footer-edge  relief-footer-right fr"></div>
+                </div>
+            </div>
+
+            <div class="detail-container mt25 fl ">
+                <div class="detail-title">
+                    <div class="detail-title-text fl">在线报名</div>
+                    <div class="detail-site-map fr">当前位置：<a href="#">首页</a> > <a href="#">联系我们</a> > <a href="#" class="red">在线报名</a></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="deital-content">
+
+                    <div class="content-list" style="padding-bottom: 20px;">
+
+                        <div style="padding: 50px; margin-left: 100px;">
+                            <form>
+                                <div class="row">
+                                    <div class="fl row-title">姓&nbsp;&nbsp;名：</div>
+                                    <div class="fl row-input">
+                                        <input type="text" />
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-title">性&nbsp;&nbsp;别：</div>
+                                    <div class="fl row-input">
+                                        <div class="fl cell">
+                                            <input type="radio" />
+                                        </div>
+                                        <div class="fl cell">男</div>
+                                        <div class="fl cell">
+                                            <input type="radio" />
+                                        </div>
+                                        <div class="fl cell">女</div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-title">生&nbsp;&nbsp;日：</div>
+                                    <div class="fl row-input">
+                                        <div class="fl cell">
+                                            <select>
+                                                <option></option>
+                                                <option>2016</option>
+                                                <option>2015</option>
+                                                <option>2014</option>
+                                                <option>2013</option>
+                                                <option>2012</option>
+                                                <option>2010</option>
+                                                <option>2009</option>
+                                                <option>2008</option>
+                                                <option>2007</option>
+                                                <option>2006</option>
+                                                <option>2005</option>
+                                            </select>
+                                        </div>
+                                        <div class="fl cell">年</div>
+                                        <div class="fl cell">
+                                            <select>
+                                                <option></option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                                <option>11</option>
+                                                <option>12</option>
+                                            </select>
+                                        </div>
+                                        <div class="fl cell">月</div>
+                                        <div class="fl cell">
+                                            <select>
+                                                <option></option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                                <option>11</option>
+                                                <option>12</option>
+                                                <option>13</option>
+                                                <option>14</option>
+                                                <option>15</option>
+                                                <option>16</option>
+                                                <option>17</option>
+                                                <option>18</option>
+                                                <option>19</option>
+                                                <option>20</option>
+                                                <option>21</option>
+                                                <option>22</option>
+                                                <option>23</option>
+                                                <option>24</option>
+                                                <option>25</option>
+                                                <option>26</option>
+                                                <option>27</option>
+                                                <option>28</option>
+                                                <option>29</option>
+                                                <option>30</option>
+                                            </select>
+                                        </div>
+                                        <div class="fl cell">日</div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-title">课程安排：</div>
+                                    <div class="fl row-input">
+                                        <select style="width: 220px;">
+                                            <option>琴棋书画</option>
+                                        </select>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-title">联系电话：</div>
+                                    <div class="fl row-input">
+                                        <input type="text" />
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-title">联系邮箱：</div>
+                                    <div class="fl row-input">
+                                        <input type="text" />
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-title">备&nbsp;&nbsp;注：</div>
+                                    <div class="fl row-input" style="height: 100px;">
+                                        <textarea style="width: 280px; height: 80px;">请输入内容</textarea>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-input">
+                                        <div class="button fl" style="margin-left: 100px;">确定</div>
+                                        <div class="button fl">重置</div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+
+
+        <div class="footer-container">
+            <div class="content">
+                <div class="footer footer-nav fl">
+                    <a href="#">联系我们</a>
+                    <span>|</span>
+                    <a href="#">在线应聘</a>
+                    <span>|</span>
+                    <a href="#">在线报名</a>
+                    <span>|</span>
+                    <a href="#">学生交流</a>
+                    <span>|</span>
+                    <a href="#">获得荣誉</a>
+                </div>
+                <div class="footer footer-statement fr">
+                    <span class="pr10">版权所有@2004</span>
+                    <span class="pr30">中逊国学文化教育有限公司</span>
+                    <span>蒙ICP备05006681号-1</span>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="bg bg_right fr">
+        <img src="image/bg_right.png" />
+    </div>
+
+</body>
+</html>

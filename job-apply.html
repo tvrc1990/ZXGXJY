@@ -1,0 +1,355 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>中逊国学教育</title>
+    <link href="style/common.css" rel="stylesheet" />
+    <link href="style/detail.css" rel="stylesheet" />
+    <style>
+        .row-input select {
+            width: 222px;
+        }
+    </style>
+    <script src="js/jquery.main.js"></script>
+    <script type="text/javascript">
+
+        var set_bg_width = function () {
+            var bgWidth = (document.body.clientWidth - 1000) / 2;
+            console.log(bgWidth);
+            $('.bg').css('width', bgWidth - 1);
+            $('.bg').css('margin-top', $('.footer').parents('.content').offset().top - 307)
+        }
+
+        window.onresize = function () {
+            set_bg_width();
+        }
+
+    </script>
+</head>
+<body onload="set_bg_width();">
+    <div class="bg bg_left fl">
+        <img src="image/bg_left.png" />
+    </div>
+
+
+    <div class="nav fl">
+        <ul class="menu-container db">
+            <li class="menu db fl" style="width: 76px;">
+                <a class="red" href="#">首页</a>
+                <i class="line"></i>
+            </li>
+            <li class="menu db fl">
+                <a href="#">关于中逊</a>
+                <i class="line"></i>
+                <ul class="sub-menu-container">
+                    <li class="sub-menu sub-menu-first db fl"><a href="#">中逊简介</a></li>
+                    <li class="sub-menu db fl"><a href="#">文化理念</a></li>
+                    <li class="sub-menu db fl"><a href="#">获得荣誉</a></li>
+                </ul>
+            </li>
+            <li class="menu db fl"><a href="#">官方咨询</a><i class="line"></i></li>
+            <li class="menu db fl"><a href="#">开设课程</a><i class="line"></i></li>
+            <li class="menu db fl"><a href="#">培训教育</a><i class="line"></i></li>
+            <li class="menu db fl"><a href="#">学生交流</a><i class="line"></i></li>
+            <li class="menu db fl"><a href="#">联系我们</a></li>
+        </ul>
+
+    </div>
+
+
+
+    <div class="content-container" style="top: 130px;">
+
+        <div class="content">
+
+            <div class="banner-container fl">
+                <img src="image/data/jyxs.png" />
+            </div>
+
+            <div class="relief-container relief-left fl">
+                <div class="relief-title mt25">
+                    <div class="relief-left-edge fl"></div>
+                    <div class="relief-center-edge  fl">
+                        <div class="round-text detail-round-text fl">联</div>
+                        <div class="round-text detail-round-text fl">系</div>
+                        <div class="round-text detail-round-text fl">我</div>
+                        <div class="round-text detail-round-text fl">们</div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="relief-right-edge fr"></div>
+                </div>
+                <div class="relief-left-vertical" style="height: 160px;">
+                    <div class="relief-right-vertical" style="height: 160px;">
+                        <div class="relief-left-item ">联系方式</div>
+                        <div class="relief-left-division"></div>
+                        <div class="relief-left-item ">在线报名</div>
+                        <div class="relief-left-division"></div>
+                        <div class="relief-left-item item-checked">在线应聘</div>
+                    </div>
+
+
+                </div>
+                <div class="relief-footer">
+                    <div class="relief-footer-edge relief-footer-left fl"></div>
+                    <div class="relief-footer-edge  relief-footer-right fr"></div>
+                </div>
+            </div>
+
+            <div class="detail-container mt25 fl ">
+                <div class="detail-title">
+                    <div class="detail-title-text fl">在线应聘</div>
+                    <div class="detail-site-map fr">当前位置：<a href="#">首页</a> > <a href="#">联系我们</a> > <a href="#" class="red">在线应聘</a></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="deital-content">
+
+                    <div class="content-list" style="padding-bottom: 20px;">
+
+                        <div class="list-item" style="border: none;">
+                            <ul class="sub-ul student-sub-ul job-ul">
+                                <li class="student job-li">
+                                    <div class="fl job-title">招聘信息</div>
+                                    <a class="job-break" href="index.html">返回</a>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+
+                            <ul class="sub-ul student-sub-ul job-ul" style="border: none;">
+                                <li class="student job-li">
+                                    <h4>国学老师（3人）</h4>
+                                </li>
+                                <li class="student job-li">
+                                    <span>岗位职责:</span>
+                                </li>
+                                <li class="student job-li">
+                                    <span>1.负责国学课程三字经的授课</span>
+                                </li>
+                                <li class="student job-li">
+                                    <span>1.负责国学课程三字经的授课</span>
+                                </li>
+                                <li class="student job-li">
+                                    <span>2.负责国学课程三字经的授课:</span>
+                                </li>
+                                <li class="student job-li">
+                                    <span>任职条件:</span>
+                                </li>
+                                <li class="student job-li">
+                                    <span>1.师范教育专业毕业,汉语专业优先:</span>
+                                </li>
+                                <li class="student job-li">
+                                    <span>2.较强的亲和力，语言表达能力:</span>
+                                </li>
+                                <li class="student job-li">
+                                    <span>3.有教师资格证优先:</span>
+                                </li>
+                            </ul>
+
+                            <ul class="sub-ul student-sub-ul job-ul">
+                                <li class="student job-li">
+                                    <div class="fl job-title">我要应聘</div>
+
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+
+
+                        </div>
+
+                        <div style="padding: 50px; margin-left: 100px;">
+                            <form>
+                                <div class="row">
+                                    <div class="fl row-title">姓&nbsp;&nbsp;名：</div>
+                                    <div class="fl row-input">
+                                        <input type="text" />
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-title">性&nbsp;&nbsp;别：</div>
+                                    <div class="fl row-input">
+                                        <div class="fl cell">
+                                            <input type="radio" />
+                                        </div>
+                                        <div class="fl cell">男</div>
+                                        <div class="fl cell">
+                                            <input type="radio" />
+                                        </div>
+                                        <div class="fl cell">女</div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-title">年&nbsp;&nbsp;龄：</div>
+                                    <div class="fl row-input">
+                                        <select>
+                                            <option>30</option>
+                                            <option>31</option>
+                                            <option>32</option>
+                                            <option>33</option>
+                                            <option>34</option>
+                                            <option>35</option>
+                                            <option>36</option>
+                                            <option>37</option>
+                                            <option>38</option>
+                                            <option>39</option>
+                                            <option>40</option>
+                                        </select>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-title">应聘职位：</div>
+                                    <div class="fl row-input">
+                                        <select>
+                                            <option>书画老师</option>
+                                        </select>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-title">学&nbsp;&nbsp;历：</div>
+                                    <div class="fl row-input">
+                                        <select>
+                                            <option>高中及以下</option>
+                                            <option>专科</option>
+                                            <option>本科</option>
+                                            <option>硕士</option>
+                                            <option>博士</option>
+                                        </select>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-title">职&nbsp;&nbsp;称：</div>
+                                    <div class="fl row-input">
+                                        <select>
+                                            <option>正高级</option>
+                                        </select>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+
+
+                                <div class="row">
+                                    <div class="fl row-title">所学专业：</div>
+                                    <div class="fl row-input">
+                                        <input type="text" />
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-title">工作经验：</div>
+                                    <div class="fl row-input">
+                                        <select>
+                                            <option>10年及以上</option>
+                                            <option>5年</option>
+                                            <option>4年</option>
+                                            <option>3年</option>
+                                            <option>2年</option>
+                                            <option>1年</option>
+                                        </select>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-title">资格证书：</div>
+                                    <div class="fl row-input">
+                                        <div class="fl cell">
+                                            <input type="radio" />
+                                        </div>
+                                        <div class="fl cell">有</div>
+                                        <div class="fl cell">
+                                            <input type="radio" />
+                                        </div>
+                                        <div class="fl cell">无</div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-title">联系电话：</div>
+                                    <div class="fl row-input">
+                                        <input type="text" />
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-title">联系邮箱：</div>
+                                    <div class="fl row-input">
+                                        <input type="text" />
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-title">备&nbsp;&nbsp;注：</div>
+                                    <div class="fl row-input" style="height: 100px;">
+                                        <textarea style="width: 280px; height: 80px;">请输入内容</textarea>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="fl row-input">
+                                        <div class="button fl" style="margin-left: 100px;">确定</div>
+                                        <div class="button fl">重置</div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </form>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+
+
+        <div class="footer-container">
+            <div class="content">
+                <div class="footer footer-nav fl">
+                    <a href="#">联系我们</a>
+                    <span>|</span>
+                    <a href="#">在线应聘</a>
+                    <span>|</span>
+                    <a href="#">在线报名</a>
+                    <span>|</span>
+                    <a href="#">学生交流</a>
+                    <span>|</span>
+                    <a href="#">获得荣誉</a>
+                </div>
+                <div class="footer footer-statement fr">
+                    <span class="pr10">版权所有@2004</span>
+                    <span class="pr30">中逊国学文化教育有限公司</span>
+                    <span>蒙ICP备05006681号-1</span>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="bg bg_right fr">
+        <img src="image/bg_right.png" />
+    </div>
+
+</body>
+</html>

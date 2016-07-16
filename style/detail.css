@@ -1,0 +1,332 @@
+﻿
+.banner-container {
+    width:1000px;
+    height:170px;
+}
+.banner-container image{
+    width:100%;
+    height:100%;
+}
+
+.relief-left {
+    padding-left:0px;
+}
+
+.detail-round-text {
+        margin-left:9px;
+}
+
+.relief-left-vertical {
+    height:120px;
+}
+
+.relief-right-vertical {
+    height:120px;
+    padding-top:15px;
+}
+
+.relief-left-division {
+    height:1px;
+    width:219px;
+    background-color:#DBDBDA;
+    margin:1px 15px 1px 15px;
+}
+
+.relief-left-item {
+    width:219px;
+    height:40px;
+    margin:0px 15px 0px 15px;
+    line-height:40px;
+    text-align:center;
+    font-size:14px;
+    color:#454545;
+    cursor:pointer;
+   
+}
+.item-checked {
+     background-color:#ad9f85;
+     color:white;
+}
+
+.detail-container {
+    width:728px;
+    margin-left:15px;
+    margin-bottom:25px;
+    background-color:#F0EBE5;
+}
+
+.detail-container .detail-title {
+    width:100%;
+    height:53px;
+    background-image: url(../image/sz-bottom.png);
+   background-repeat:repeat-x;
+}
+
+.detail-container .detail-title .detail-title-text {
+    width: 99px;
+    height: 26px;
+    background-image: url(../image/detail-title-text.png);
+    background-position-y:15px;
+    background-position-x:15px;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-family:Microsoft YaHei;
+    color: white;
+    padding: 18px 0px 0px 27px;
+}
+
+.detail-container .detail-title .detail-site-map {
+    line-height:53px;
+    padding-right:30px;
+}
+
+.detail-container .deital-content {
+    width:700px;
+    margin:0px 14px 0px 14px;
+    background-image: url(../image/detile-title-bottom.png);
+    background-repeat:repeat-x;
+    min-height:500px;
+}
+
+.detail-container .deital-content .list-item
+{
+    padding: 0px 5px 0px 5px;
+    list-style:none;
+     border-bottom:1px dotted #e2bcb7;
+}
+
+
+.detail-container .deital-content .sub-ul {
+    padding:0px;
+    margin:0px;
+    padding-left:30px;
+    list-style-type:disc;
+    border-bottom:none;
+}
+
+.detail-container .deital-content .sub-li {
+    line-height:50px;
+    padding-right:54px;
+}
+
+.detail-container .deital-content .sub-li a:hover {
+       color:red;
+}
+
+.detail-list-pager {
+    width:100%;
+    line-height:25px;
+    padding:40px 0px 40px 0px;
+    text-align:center;
+}
+
+.detail-list-pager input {
+    width:18px;
+}
+.detail-list-pager .next-pev {
+    background-color:#AD9F85;
+    color:white;
+    padding:5px 10px 5px 10px;
+}
+
+/*获得荣誉*/
+.honor {  
+    list-style-type:none;
+    padding:23px 0px 15px 20px;  
+    width:204px;
+}
+.honor img {
+    height:182px;
+    width:204px;
+    border:1px solid #afa187;
+}
+.honor span {
+    line-height:22px;
+    text-align:center;
+    width:100%;
+    display:block;
+}
+
+
+/*师资*/
+.teacher {  
+    list-style-type:none;
+    padding:23px 0px 15px 35px;  
+}
+.teacher img {
+    width:124px;
+    height:142px;
+    border:1px solid #afa187;
+}
+.teacher span {
+    line-height:22px;
+    text-align:center;
+    width:100%;
+    display:block;
+}
+.teachar-img-box {
+    padding: 4px; width:167px;height:190px; border: 1px solid #AFA187;
+}
+.teachar-img-box img {
+    width:100%;
+    height:100%;
+    display:block;
+  
+}
+.teachar-detail {
+    padding-left:20px;
+}
+.teachar-detail p {
+    width:426px;
+    line-height:22px;
+    padding-top:10px;
+}
+.teachar-detail h3 {
+    padding:0px;
+    margin:0px;
+}
+
+
+/*学生风采*/
+.student {  
+  
+    padding:23px 0px 15px 0px;  
+    list-style-type:none;
+}
+
+.student .img-box {
+    padding: 4px; width:300px;height:222px; border: 1px solid #AFA187;
+}
+.student .img-box  img {
+    width:100%;
+    height:100%;
+    display:block;
+  
+}
+.student span {
+    line-height:22px;
+    text-align:center;
+    width:100%;
+    display:block;
+}
+.detail-container .deital-content  .student-sub-ul {
+  padding: 0px 0px 15px 0px;
+  margin:0px  20px 0px 20px;
+  border-bottom:1px dotted #C1BCB6;
+}
+
+.detail-container .deital-content .list-item .student-item {
+    border-bottom:1px dotted #C1BCB6;
+}
+
+
+.article-detail {
+    padding:15px 20px 5px 20px;
+    line-height:22px;
+}
+
+.article-title {
+    padding-top:25px;
+    text-align:center;
+    margin:0px 30px 30px 30px;
+    border-bottom:1px dotted #C1BCB6;
+}
+
+.article-title h4 {
+        text-align:center;
+}
+
+.article-title p {
+        text-align:right;
+}
+
+/*在线招聘*/
+.detail-container .deital-content  .job-ul {
+    padding-bottom:0px;
+}
+.job-li{
+    padding:0px;
+    text-align:left;
+}
+
+.job-li span {
+    text-align:left;
+    line-height:30px;
+    padding-top:10px;      
+}
+.job-title {
+    line-height:30px;
+    padding-top:10px; 
+}
+.job-break {
+    margin-top: 12px;
+    display: block; background-color: #AD9F85; padding: 4px 8px 4px 8px; float: right;
+}
+
+/*在线报名*/
+
+.row {
+    padding:10px;
+    text-align:center;
+    width:500px;
+}
+.row-title {
+    text-align:right;
+    line-height:20px;
+    padding-right:15px;
+}
+
+.row-input {
+    height:25px;
+
+}
+.row-input input[type=text] {
+        width:220px;
+}
+
+.cell {
+    padding-right:10px;
+    line-height:20px;
+}
+.button {
+    padding:5px 15px 5px 15px;
+    background-color:#AD9F85;
+    margin-left:15px;
+    cursor:pointer;
+    color:white;
+}
+
+
+.table {
+    width:685px;
+    border-right:1px solid #ae9e85;
+    border-top:1px solid #ae9e85;
+}
+
+.column {
+    height:35px;
+    float:left;
+    border-left:1px solid #AD9F85;
+    border-bottom:1px solid #AD9F85;
+}
+.head {
+    background-color:#AD9F85;
+    text-align:center;
+    line-height:35px;
+    color:white;
+}
+.column-148 {
+     width:148px;
+}
+.column-196 {
+     width:196px;
+}
+.column-103 {
+     width:103px;
+}
+.column-159 {
+     width:159px;
+}
+.column-72 {
+     width:73px;
+}

@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>中逊国学教育</title>
+    <link href="style/common.css" rel="stylesheet" />
+    <link href="style/detail.css" rel="stylesheet" />
+    <script src="js/jquery.main.js"></script>
+    <script type="text/javascript">
+
+        var set_bg_width = function () {
+            var bgWidth = (document.body.clientWidth - 1000) / 2;
+            console.log(bgWidth);
+            $('.bg').css('width', bgWidth - 1);
+            $('.bg').css('margin-top', $('.footer').parents('.content').offset().top - 307)
+        }
+
+        window.onresize = function () {
+            set_bg_width();
+        }
+
+    </script>
+</head>
+<body onload="set_bg_width();">
+    <div class="bg bg_left fl">
+        <img src="image/bg_left.png" />
+    </div>
+
+
+    <div class="nav fl">
+        <ul class="menu-container db">
+            <li class="menu db fl" style="width: 76px;">
+                <a class="red" href="#">首页</a>
+                <i class="line"></i>
+            </li>
+            <li class="menu db fl">
+                <a href="#">关于中逊</a>
+                <i class="line"></i>
+                <ul class="sub-menu-container">
+                    <li class="sub-menu sub-menu-first db fl"><a href="#">中逊简介</a></li>
+                    <li class="sub-menu db fl"><a href="#">文化理念</a></li>
+                    <li class="sub-menu db fl"><a href="#">获得荣誉</a></li>
+                </ul>
+            </li>
+            <li class="menu db fl"><a href="#">官方咨询</a><i class="line"></i></li>
+            <li class="menu db fl"><a href="#">开设课程</a><i class="line"></i></li>
+            <li class="menu db fl"><a href="#">培训教育</a><i class="line"></i></li>
+            <li class="menu db fl"><a href="#">学生交流</a><i class="line"></i></li>
+            <li class="menu db fl"><a href="#">联系我们</a></li>
+        </ul>
+
+    </div>
+
+
+
+    <div class="content-container" style="top: 130px;">
+
+        <div class="content">
+
+            <div class="banner-container fl">
+                <img src="image/data/jyxs.png" />
+            </div>
+
+            <div class="relief-container relief-left fl">
+                <div class="relief-title mt25">
+                    <div class="relief-left-edge fl"></div>
+                    <div class="relief-center-edge  fl">
+                        <div class="round-text detail-round-text fl">教</div>
+                        <div class="round-text detail-round-text fl">育</div>
+                        <div class="round-text detail-round-text fl">培</div>
+                        <div class="round-text detail-round-text fl">训</div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="relief-right-edge fr"></div>
+                </div>
+                <div class="relief-left-vertical" style="height: 160px;">
+                    <div class="relief-right-vertical" style="height: 160px;">
+                        <div class="relief-left-item ">课程安排</div>
+                        <div class="relief-left-division"></div>
+                        <div class="relief-left-item ">师资介绍</div>
+                        <div class="relief-left-division"></div>
+                        <div class="relief-left-item item-checked">学生风采</div>
+                    </div>
+
+
+                </div>
+                <div class="relief-footer">
+                    <div class="relief-footer-edge relief-footer-left fl"></div>
+                    <div class="relief-footer-edge  relief-footer-right fr"></div>
+                </div>
+            </div>
+
+            <div class="detail-container mt25 fl ">
+                <div class="detail-title">
+                    <div class="detail-title-text fl">学生风采</div>
+                    <div class="detail-site-map fr">当前位置：<a href="#">首页</a> > <a href="#">教育培训</a> > <a href="#" class="red">学生风采</a></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="deital-content">
+
+                    <div class="content-list" style="padding-bottom: 20px;">
+
+                        <div class="list-item" style="border: none;">
+                            <ul class="sub-ul student-sub-ul">
+
+                                <li class="student fl">
+                                    <div class="img-box">
+                                        <img src="image/banner.png" />
+                                    </div>
+                                </li>
+
+                                <li class="student ml21 fr">
+                                    <div class="img-box">
+                                        <img src="image/banner.png" />
+                                    </div>
+                                </li>
+
+                                <div class="clear"></div>
+
+                            </ul>
+                        </div>
+
+                        <div class="list-item" style="border: none;">
+                            <ul class="sub-ul student-sub-ul">
+
+                                <li class="student fl">
+                                    <div class="img-box">
+                                        <img src="image/banner.png" />
+                                    </div>
+                                </li>
+
+                                <li class="student ml21 fr">
+                                    <div class="img-box">
+                                        <img src="image/banner.png" />
+                                    </div>
+                                </li>
+
+                                <div class="clear"></div>
+
+                            </ul>
+                        </div>
+
+                        <div class="list-item" style="border: none;">
+                            <ul class="sub-ul student-sub-ul">
+
+                                <li class="student fl">
+                                    <div class="img-box">
+                                        <img src="image/banner.png" />
+                                    </div>
+                                </li>
+
+                                <li class="student ml21 fr">
+                                    <div class="img-box">
+                                        <img src="image/banner.png" />
+                                    </div>
+                                </li>
+
+                                <div class="clear"></div>
+
+                            </ul>
+                        </div>
+
+                        <div class="detail-list-pager">
+                            <a class="next-pev point">首页</a>
+                            <a class="point">上一页</a>
+                            <span>第</span>
+                            <span>
+                                <input type="text" /></span>
+                            <span>页</span>
+                            <span>/共2页</span>
+                            <a class="point">下一页</a>
+                            <a class="next-pev point">尾页</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+
+
+        <div class="footer-container">
+            <div class="content">
+                <div class="footer footer-nav fl">
+                    <a href="#">联系我们</a>
+                    <span>|</span>
+                    <a href="#">在线应聘</a>
+                    <span>|</span>
+                    <a href="#">在线报名</a>
+                    <span>|</span>
+                    <a href="#">学生交流</a>
+                    <span>|</span>
+                    <a href="#">获得荣誉</a>
+                </div>
+                <div class="footer footer-statement fr">
+                    <span class="pr10">版权所有@2004</span>
+                    <span class="pr30">中逊国学文化教育有限公司</span>
+                    <span>蒙ICP备05006681号-1</span>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="bg bg_right fr">
+        <img src="image/bg_right.png" />
+    </div>
+
+</body>
+</html>
