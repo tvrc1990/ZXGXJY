@@ -63,6 +63,9 @@ a {
     background-repeat: no-repeat;
     z-index: 0;
 }
+img {
+    border:none;
+}
  .bg img {
         width:100%;
         height:100%;
@@ -84,6 +87,11 @@ a {
     top:528px;
     width:100%;
 }
+ .content {
+    width:1000px;
+    margin: 0px auto;
+}
+
 .nav {
     width: 1000px;
     margin: 0px auto;

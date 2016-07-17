@@ -53,6 +53,9 @@ a {
     text-decoration:none;
     color: #655d53;
 }
+img {
+    border:none;
+}
 
 .bg {
     width: 458px;
@@ -449,7 +452,7 @@ a {
 .sz-show .sz-content .sz-item img {
     width:122px;
     height:140px;
-    border:1px solid #ad9f85;
+    border:2px solid #ad9f85;
 }
 
 .contact-info{

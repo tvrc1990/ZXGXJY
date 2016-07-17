@@ -43,6 +43,11 @@
     cursor:pointer;
    
 }
+
+    .relief-left-item a {
+        padding:9px 70px 9px 70px;
+    }
+
 .item-checked {
      background-color:#ad9f85;
      color:white;
@@ -135,10 +140,13 @@
     padding:23px 0px 15px 20px;  
     width:204px;
 }
+
+
 .honor img {
-    height:182px;
-    width:204px;
+    height:180px;
+    width:202px;
     border:1px solid #afa187;
+    padding:2px;
 }
 .honor span {
     line-height:22px;
@@ -274,6 +282,7 @@
     text-align:right;
     line-height:20px;
     padding-right:15px;
+    width:150px;
 }
 
 .row-input {
