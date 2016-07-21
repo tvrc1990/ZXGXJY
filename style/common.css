@@ -103,6 +103,12 @@ img {
     background-repeat: no-repeat;
 }
 
+.log {
+    width:236px; height:70px; display:block;
+      margin: 30px 0px 0px 20px;
+      position:fixed;
+}
+
 .menu-container {
     width: 660px;
     height: 62px;

@@ -251,6 +251,8 @@
 /*在线招聘*/
 .detail-container .deital-content  .job-ul {
     padding-bottom:0px;
+    position:relative;
+    padding-bottom:5px;
 }
 .job-li{
     padding:0px;
@@ -259,8 +261,7 @@
 
 .job-li span {
     text-align:left;
-    line-height:30px;
-    padding-top:10px;      
+    line-height:22px;     
 }
 .job-title {
     line-height:30px;
@@ -269,6 +270,10 @@
 .job-break {
     margin-top: 12px;
     display: block; background-color: #AD9F85; padding: 4px 8px 4px 8px; float: right;
+    color:white;
+    position:absolute;
+    right:0px;
+    bottom:5px;
 }
 
 /*在线报名*/

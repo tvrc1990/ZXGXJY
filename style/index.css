@@ -91,9 +91,14 @@ img {
     background-position-x: 19px;
     background-repeat: no-repeat;
 }
+.log {
+    width:236px; height:70px; display:block;
+      margin: 30px 0px 0px 20px;
+      position:fixed;
+}
 
 .menu-container {
-    width: 660px;
+       width: 660px;
     height: 62px;
     padding-top: 50px;
     margin-left: 348px;
@@ -221,7 +226,7 @@ img {
     padding-top:32px;
     background-image: url(../image/notice-bottow.png);
     background-repeat: repeat-x;
-    background-position-y:64px;
+    background-position: 0px 64px;
     
 }
 .notice-title .notice-text {
@@ -332,7 +337,7 @@ img {
     padding-right:4px;
     background-image: url(../image/relief-vertical.png);
     background-repeat:repeat-y;
-    background-position-x:249px
+    background-position:0px 249px;
 }
 
 .relief-container .relief-footer {
@@ -340,7 +345,7 @@ img {
      width:100%;
      height:17px;
      background-repeat:repeat-x;
-     background-position-y:13px;
+     background-position:0px 13px;
 }
 
 .relief-container .relief-footer .relief-footer-edge {
@@ -368,7 +373,7 @@ img {
     -webkit-border-radius: 5px;
     border-radius:5px;
     background-repeat:no-repeat;
-    background-position-x:162px;
+    background-position:162px 0px;
 }
 
 .classics-content .content-item-sh {
